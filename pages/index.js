@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ProductsList from "../components/ProductsList";
 import Slider from "../components/Slider";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       </Head>
       <div className="">
         <Slider />
+        <ProductsList />
       </div>
     </>
   );
